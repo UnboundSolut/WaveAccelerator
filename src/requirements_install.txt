@@ -1,0 +1,1 @@
+pip install pywebview requests pystray Pillow pyinstaller

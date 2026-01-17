@@ -67,6 +67,7 @@ class Api:
         c = self.get_cfg()
         if c.get('tray', False) and TRAY:
             self.w.hide() if self.w else None
+
             self.t.notify("WaveOptimizer minimized to tray", APP_NAME) if self.t else None
         else: self.quit()
 
